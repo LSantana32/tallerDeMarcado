@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+#hero h1 {
+    font-size: 3.0em;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#hero {
+    max-height: 700px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("img/chainsaw.png");
+    background-position: center center;
+
+}
+
+.texto {
+    font-size: 17px;
+    text-align: initial;
+}
+
+#cuerpo .container {
+    max-width: 90%;
+    padding: 80px 0
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+    color: purple;
+}
+
+.titulo h3 {
+    font-weight: bold;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.img-container {
+    display: flex;
+    padding: 30px 0px;
+    ;
+    justify-content: center;
+}
+
+.img-container img {
+    width: 90%;
+
+}
+
+table {
+    margin: 15px;
+
+
+}
+
+.table-container {
+    width: 96%;
+
+
+
+
+}
+
+.myCarousel {
+    display: flex;
+    justify-content: center;
+}
+
+#login {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+#login .container {
+    width:40% ;
+    max-width: 200px;
+    padding: 60px 0px;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    padding: 12px;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+footer .container {
+    height: 150px;
+
+}
